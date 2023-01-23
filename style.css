@@ -1,0 +1,33 @@
+body {
+    background-image: url('images/love-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.section-div {
+    margin: 5vh 5vw;
+}
+/* .offer {
+    margin: 5vw;
+} */
+.offer-text {
+    font-family: 'Pacifico', cursive;
+    color: #781313;/* 781313 61265F;*/
+    font-weight: bold;
+    line-height: 1.8;
+    letter-spacing: 2.5;
+    padding: 2vw;
+}
+.form-check {
+    padding: 0 32vw;
+    font-family: 'Pacifico', cursive;
+    color: gold;/* 781313 61265F;*/
+    font-weight: bold;
+    line-height: 1.8;
+    letter-spacing: 2.5;
+}
+.calc-btn {
+    background-color: #61265F;
+    color: bisque;
+    font-family: 'Pacifico', cursive;
+}
