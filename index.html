@@ -13,13 +13,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    
 </head>
 <body>
     <img src="images/love-banner.png" alt="this is banner" width="100%">
     <div class="container">
-        <div class="offer shadow-lg section-div">
-            <h1 class="offer-text">Hey buddy, would you like to calculate your Love Score for this Valentine's month?</h1>
+        <div class="offer section-div">
+            <h1 class="offer-text shadow-lg">Hey buddy, would you like to calculate your Love Score for this Valentine's month?</h1>
         </div>
 
         <div class="input-fields section-div">
@@ -48,12 +48,15 @@
         </div>
 
         <div class="calculate text-center section-div">
-            <button type="button" class="btn btn-lg btn-warning calc-btn"><b>Calculate Love Score</b></button>
+            <button type="button" class="btn btn-lg btn-warning calc-btn" id="calculate" onclick="calculate()"><b>Calculate Love Score</b></button>
         </div>
 
-        <div class="show-results section-div">
-            Results : {n}
+        <div class="show-results text-center section-div">
+            <h1>Your Love Score is : </h1>
+            <h1 id="result-score">24%</h1>
+            <h1 id="result-text">You may find your partner this month.</h1>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>

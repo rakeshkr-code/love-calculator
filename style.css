@@ -14,14 +14,21 @@ body {
     font-family: 'Pacifico', cursive;
     color: #781313;/* 781313 61265F;*/
     font-weight: bold;
+    font-size: 2rem;
     line-height: 1.8;
     letter-spacing: 2.5;
     padding: 2vw;
+    background-color: rgba(255, 192, 203, 0.6);
+    border-radius: 5vw;
+    
+}
+.form-floating {
+    font-family: 'Pacifico', cursive;
 }
 .form-check {
     padding: 0 32vw;
     font-family: 'Pacifico', cursive;
-    color: gold;/* 781313 61265F;*/
+    color: gold;
     font-weight: bold;
     line-height: 1.8;
     letter-spacing: 2.5;
@@ -30,4 +37,21 @@ body {
     background-color: #61265F;
     color: bisque;
     font-family: 'Pacifico', cursive;
+}
+.calc-btn:hover {
+    color: rgb(40, 22, 0);
+}
+.show-results {
+    font-family: 'Pacifico', cursive;
+    color: #781313;/* 781313 61265F;*/
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.8;
+    letter-spacing: 2.5;
+    padding: 2vw;
+    background-color: rgba(255, 192, 203, 0.4);
+    /* border-radius: 5vw; */
+}
+#show-score {
+    font-size: 3rem;
 }
