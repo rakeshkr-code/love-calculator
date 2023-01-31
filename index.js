@@ -9,7 +9,12 @@ function calculate() {
         scoreText = "Congrats! there's a very high probability you'll find your partner this time."
     }
 
-    // expression = document.getElementById("expression").value
+    scoreElement = document.getElementById("result-score")
+    messageElem = document.getElementById("result-text")
+
+    scoreElement.innerHTML = `${loveScore}%`
+    messageElem.innerHTML = `${scoreText}.`
+
     // console.log(expression)
     // if (expression) {
     //     try {
