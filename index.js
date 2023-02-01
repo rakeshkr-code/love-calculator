@@ -18,12 +18,15 @@ function calculate() {
         return false
     }
 
-    let keygen = name_input + pname_input
+    let keygenfr = name_input + pname_input
+    let keygenrev = pname_input + name_input
 
-    if (localStorage.getItem(keygen)) {
+    if (localStorage.getItem(keygenfr)) {
+        loveScore = localStorage.getItem(keygen)
+    } else if (localStorage.getItem(keygenrev)) {
         loveScore = localStorage.getItem(keygen)
     } else {
-        localStorage.setItem(keygen, loveScore)
+        localStorage.setItem(keygenfr, loveScore)
     }
 
     if (loveScore < 35) {
