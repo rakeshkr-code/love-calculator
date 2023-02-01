@@ -27,11 +27,11 @@ function calculate() {
     }
 
     if (loveScore < 35) {
-        scoreText = "There's No match this year. Better Luck next year."
+        scoreText = "<i class='bi bi-heartbreak-fill'></i> There's No match this year. Better Luck next year."
     } else if (loveScore >= 35 && loveScore < 75) {
-        scoreText = "May be a match, keep throwing love-arrows, daar ke aage jeet hai!"
+        scoreText = "May be a match, keep throwing love-arrows <i class='bi bi-arrow-through-heart-fill'></i> daar ke aage jeet hai!"
     } else {
-        scoreText = "Congrats! it's a Match. You both will get mingle."
+        scoreText = "<i class='bi bi-hearts'></i> Congrats! it's a Match. You both will get mingle."
     }
     
     scoreElement = document.getElementById("result-score")
